@@ -1,0 +1,97 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.centerText{
+  text-align: center;
+}
+
+.loginPanel{
+  background-color: seashell;
+  width: 30%;
+  padding: 10px 10px 50px 10px;
+  margin: 50px 0 0 32%;
+  box-shadow: 13px 13px 25px 3px #888888;
+}
+
+.successFont{
+  font-weight: bolder;
+  color: black;
+}
+
+.errorFont{
+  font-weight: bolder;
+  font-style: italic;
+  color: red;
+}
+
+.errorText{
+  font-style: italic;
+  color: red;
+}
+
+.synImg{
+  width: 100%;
+}
+
+.leftNavBar{
+  float: left;
+  width: 300px;
+  background-color: aqua;
+  height: 585px;
+  overflow: auto;
+}
+
+.rightPanel{
+  float: right;
+  width: 950px;
+  background-color: lightcyan;
+  height: 585px;
+  text-align: center;
+}
+
+.appBar{
+  position: "fixed";
+  top: 0;
+}
+
+.container{
+  margin: 65px 0 0 0;
+}
+
+.empDetailsPaper{
+  height: 100;
+  width: 100;
+  margin: 20;
+  text-align: center;
+  display: inline-block;
+}
+
+.selected{
+  background-color: skyblue !important;
+}
